@@ -1,0 +1,15 @@
+GET http://localhost:3000/propiedades
+
+GET http://localhost:3000/propiedades/SAAS123CD
+
+POST http://localhost:3000/propiedades/
+Content-Type: application/json
+{
+    "codigo_catastral": "SAAS123CD",
+    "direc_calle": "las pampas",
+    "direc_numero": 2231,
+    "direc_piso": 1,
+    "direc_puerta": "b",
+    "dni_propietario": 4322534
+}
+
