@@ -1,0 +1,68 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.boxImg {
+  background-image: url('../../public//img/logo.png');
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.imgLado {
+  background-image: url('../../public/img/muestra1.png');
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 10px;
+}
+.imgLado2 {
+  background-image: url('../../public/img/muestra2.png');
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 80px;
+}
+.imgLado3 {
+  background-image: url('../../public/img/muestra3.png');
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 200px;
+}
+.imgLado4 {
+  background-image: url('../../public/img/muestra5.png');
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  position: absolute;
+  z-index: 0;
+  left: 120px;
+  top: 20px;
+}
+
+.titulo {
+  color: white;
+}
